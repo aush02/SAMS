@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+  text-decoration:none;
+  color:white;
+  gap: 10px;
+}
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+ /* header {
+    background-image: url('IMAGE/01.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+    height: 80vh;
+    text-align:left;
+  }
+  */
+  
+ 
+  nav img{
+    height: 40px;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 0px;
+    flex-direction: row;
+
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  #first{
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    
+  }
+  
+  #hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .about{
+    background-color:rgb(238, 244, 243);
+
+    text-align: center;
+    padding: 20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  
+  }
+  
+  #about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+    
+
+  }
+  
+  #services {
+    background-color: #f2f2f2;
+  
+  }
+  
+  #services h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #services ul {
+    list-style: none;
+  }
+  
+  #services li {
+    margin-bottom: 10px;
+  }
+  
+  #contact {
+    background-color: #fff;
+
+  
+  }
+  
+  #contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 150%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    header nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Further adjustments for smaller screens */
+    section {
+      padding: 30px;
+    }
+    
+    #div h1 {
+      font-size: 24px;
+    }
+    
+    #div p {
+      font-size: 16px;
+    }
+    
+    form input,
+    form textarea {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  }
+
+  #contact form
+    {
+      width:20%;
+    }
+    .div{
+      background-color:#57cc99;
+      color:black;
+      display: flex;
+      flex-direction:row;
+      gap: 20%;
+      
+    }
+    .div2{
+      background-color:#57cc99;
+      color:black;
+      display: flex;
+      flex-direction:row;
+     text-align: right;
+      gap: 20%;
+      
+    }
+    .div3{
+      height:300px;
+      width:1400px;
+      
+
+      
+    }
+     
+    .Welcome{
+      background-color:#57cc99;;
+      height: 130px;
+      width:1400px;
+      display: flex;
+      flex-direction:column;
+
+      justify-content:  center;
+     text-align: center;
+     padding: 10px;
+     
+
+      
+    }
+  .IMG{
+    border-radius: 10px;
+    
+  ;
+  }
+
+  .service{
+    
+  background-color:rgb(238, 244, 243);  
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  border-radius: 10px;
+  }
+  p{
+    text-align: center;
+  }
+  

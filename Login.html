@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="Login.css"> 
+  <script type="text/javascript">
+    function validateForm() {
+        var userType = document.forms[0]["userType"].value;
+        var email = document.forms[0]["email"].value;
+        var password = document.forms[0]["password"].value;
+
+        if (userType === "") {
+            alert("Please select a user type.");
+            return false;
+        }
+
+        if (!isValidEmail(email)) {
+            alert("Please enter a valid email address.");
+            return false;
+        }
+
+        if (password.length < 8) {
+            alert("Password must be at least 8 characters.");
+            return false;
+        }
+
+        return true;
+    }
+
+    function isValidEmail(email) {
+        var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailPattern.test(email);
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="IMAGE/logo 0.png" width='5%' alt="Company Logo">
+    </nav>
+  </header>
+
+  <section id="login">
+    <h2>Login</h2>
+    <form onsubmit="return validateForm();" action="" method="POST">
+      <label for="userType">User Type:</label>
+      <select required name="userType" id="userType" class="form-control mb-3">
+        <option value="">--Select User Roles--</option>
+        <option value="Administrator">Administrator</option>
+        <option value="ClassTeacher">ClassTeacher</option>
+      </select><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Email" required><br>
+
+      <label for="password">Password:</label>
+      <input type="password"  id="password" name="password" placeholder="Password" required><br>
+
+      <button type="submit" class="btn">Log In</button>
+    </form>
+    <p>Don't have an account? <a href="reg form.php">Register</a></p>
+  </section>
+</body>
+</html>

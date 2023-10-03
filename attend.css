@@ -1,0 +1,143 @@
+.action{
+    background-color: rgb(125, 175, 222);
+    display: flex;
+    flex-direction: row;
+    height: 52px;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    gap:3%;
+    /* justify-content: center;
+    text-align: center; */
+
+
+}
+.main-container{
+    background-color:  rgb(125, 175, 222);
+    width: 1200px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    position:relative;
+    top:65%;
+    left: 10%;
+}
+.material-symbols-outlined{  
+    position:relative;
+    top:60%;
+    left: 10%;
+
+}
+.contain{
+    display:flex;
+    flex-direction: row;
+    height: 80px;
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color:white;
+    width:200px;
+    gap:3%;
+
+}
+.left-container{
+   height: 1600px;
+   background-color: black;
+   height: 620px;
+
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+
+
+}
+.nav{
+    background-color: aliceblue;
+    color: blueviolet;
+    height: 30px;
+    width: 1400px;
+}
+.right-container{
+    display: flex;
+    flex-direction:column;
+    gap:3%;
+}
+/* .side{
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+} */
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    gap:5%;
+}
+
+.side-one{
+    background-color: skyblue;
+    height: 40px;
+    width:500px;
+    justify-content: left;
+    border-color: black;
+    border: 7%;
+}
+.side-two{
+    background-color: skyblue;
+    height: 40px;
+    width:500px;
+    justify-content: right;
+}
+.both{
+    display: flex;
+    flex-direction: row;
+    gap:30%;
+    height:100px;
+}
+.picture{
+    display: flex;
+    flex-direction: row;
+    gap:8%;
+    height: 300px;
+}
+ 
+.line{
+display: flex;
+flex-direction: column;
+ gap:22%; 
+
+    }
+    .class{
+display: flex;
+flex-direction: row;
+gap:15%;
+height: 120px;
+background-color: lightblue;
+
+    }
+    .analysis{
+        display: flex;
+        flex-direction: row;
+        gap:5%;
+    }
+    /* #Analysis{
+        text-decoration: none;
+    } */
+    .contain2{
+        text-decoration:none;
+    }
+    /* .material-symbols-outlined{
+        background-color: skyblue;
+    } */
+    .list{
+    display: flex;
+    flex-direction: column;
+    gap:22%;
+    }
